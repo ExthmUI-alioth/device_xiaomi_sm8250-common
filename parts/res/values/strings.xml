@@ -40,6 +40,15 @@
 
     <string name="htsr_enable_title">Increase Touch Responsiveness</string>
     <string name="htsr_enable_summary">Increases touch polling rate to decrease latency</string>
+    <!-- Thermal profiles -->
+    <string name="thermal_title">Thermal profiles</string>
+    <string name="thermal_summary">Adjust per-app thermal profiles for optimum performance</string>
+    <string name="thermal_default">Default</string>
+    <string name="thermal_benchmark">Benchmark</string>
+    <string name="thermal_browser">Browser</string>
+    <string name="thermal_camera">Camera</string>
+    <string name="thermal_dialer">Dialer</string>
+    <string name="thermal_gaming">Gaming</string>
 
     <!-- Refresh Rate tile -->
     <string name="refresh_rate_tile_title">Refresh Rate</string>
