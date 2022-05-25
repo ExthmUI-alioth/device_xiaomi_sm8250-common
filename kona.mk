@@ -375,6 +375,11 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
+# Overlays
+PRODUCT_PACKAGES += \
+    TelecommResCommon \
+    TelephonyResCommon
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
