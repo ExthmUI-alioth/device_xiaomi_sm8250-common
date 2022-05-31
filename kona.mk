@@ -383,7 +383,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TelecommResCommon \
     TelephonyResCommon \
-    DisplayFeaturesAlioth
+    DisplayFeaturesAlioth \
+    NotchBarKiller
 
 # Perf
 PRODUCT_PACKAGES += \
