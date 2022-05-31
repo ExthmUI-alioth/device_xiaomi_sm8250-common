@@ -381,7 +381,8 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    DisplayFeaturesAlioth
+    DisplayFeaturesAlioth \
+    NotchBarKiller
 
 # Perf
 PRODUCT_PACKAGES += \
