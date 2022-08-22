@@ -630,6 +630,7 @@ vendor/lib64/libqmiservices.so
 
 # RIL
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
+system_ext/framework/qti-telephony-common.jar
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_libpermissions.xml
 system_ext/etc/permissions/qti_permissions.xml
