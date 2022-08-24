@@ -21,6 +21,7 @@
 on property:sys.performance.level=-1
     write /sys/module/kprofiles/parameters/mode 1
     write /sys/devices/platform/soc/1d84000.ufshc/ufstw_lu0/tw_enable 1
+    chmod 644 /proc/sys/kernel/perf_cpu_time_max_percent
     write /proc/sys/kernel/perf_cpu_time_max_percent 5
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 10
@@ -33,6 +34,7 @@ on property:sys.performance.level=-1
 on property:sys.performance.level=0
     write /sys/module/kprofiles/parameters/mode 1
     write /sys/devices/platform/soc/1d84000.ufshc/ufstw_lu0/tw_enable 0
+    chmod 644 /proc/sys/kernel/perf_cpu_time_max_percent
     write /proc/sys/kernel/perf_cpu_time_max_percent 5
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 0
@@ -40,6 +42,7 @@ on property:sys.performance.level=0
 on property:sys.performance.level=1
     write /sys/module/kprofiles/parameters/mode 1
     write /sys/devices/platform/soc/1d84000.ufshc/ufstw_lu0/tw_enable 0
+    chmod 644 /proc/sys/kernel/perf_cpu_time_max_percent
     write /proc/sys/kernel/perf_cpu_time_max_percent 5
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 14
@@ -47,6 +50,7 @@ on property:sys.performance.level=1
 on property:sys.performance.level=2
     write /sys/module/kprofiles/parameters/mode 1
     write /sys/devices/platform/soc/1d84000.ufshc/ufstw_lu0/tw_enable 0
+    chmod 644 /proc/sys/kernel/perf_cpu_time_max_percent
     write /proc/sys/kernel/perf_cpu_time_max_percent 5
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 14
@@ -54,6 +58,7 @@ on property:sys.performance.level=2
 on property:sys.performance.level=3
     write /sys/module/kprofiles/parameters/mode 2
     write /sys/devices/platform/soc/1d84000.ufshc/ufstw_lu0/tw_enable 1
+    chmod 644 /proc/sys/kernel/perf_cpu_time_max_percent
     write /proc/sys/kernel/perf_cpu_time_max_percent 15
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 10
@@ -61,6 +66,7 @@ on property:sys.performance.level=3
 on property:sys.performance.level=4
     write /sys/module/kprofiles/parameters/mode 2
     write /sys/devices/platform/soc/1d84000.ufshc/ufstw_lu0/tw_enable 1
+    chmod 644 /proc/sys/kernel/perf_cpu_time_max_percent
     write /proc/sys/kernel/perf_cpu_time_max_percent 15
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 10
@@ -68,6 +74,7 @@ on property:sys.performance.level=4
 on property:sys.performance.level=5
     write /sys/module/kprofiles/parameters/mode 3
     write /sys/devices/platform/soc/1d84000.ufshc/ufstw_lu0/tw_enable 1
+    chmod 644 /proc/sys/kernel/perf_cpu_time_max_percent
     write /proc/sys/kernel/perf_cpu_time_max_percent 15
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 9
@@ -75,6 +82,7 @@ on property:sys.performance.level=5
 on property:sys.performance.level=6
     write /sys/module/kprofiles/parameters/mode 3
     write /sys/devices/platform/soc/1d84000.ufshc/ufstw_lu0/tw_enable 1
+    chmod 644 /proc/sys/kernel/perf_cpu_time_max_percent
     write /proc/sys/kernel/perf_cpu_time_max_percent 15
     chmod 644 /sys/class/thermal/thermal_message/sconfig
     write /sys/class/thermal/thermal_message/sconfig 9
