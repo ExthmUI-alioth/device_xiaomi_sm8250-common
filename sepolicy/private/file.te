@@ -1,1 +1,1 @@
-type sysfs_htsr, sysfs_type, fs_type;
+type sysfs_fps, sysfs_htsr, sysfs_type, fs_type;
