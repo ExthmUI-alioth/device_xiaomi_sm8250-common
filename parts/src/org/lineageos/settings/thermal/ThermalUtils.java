@@ -36,7 +36,7 @@ public final class ThermalUtils {
     protected static final int STATE_DIALER = 4;
     protected static final int STATE_GAMING = 5;
 
-    private static final String THERMAL_STATE_DEFAULT = "0";
+    private static final String THERMAL_STATE_DEFAULT = "10";
     private static final String THERMAL_STATE_BENCHMARK = "10";
     private static final String THERMAL_STATE_BROWSER = "11";
     private static final String THERMAL_STATE_CAMERA = "12";
