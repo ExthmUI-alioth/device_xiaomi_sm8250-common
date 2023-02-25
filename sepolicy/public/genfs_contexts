@@ -1,0 +1,1 @@
+genfscon sysfs /sys/class/drm/card0/card0-DSI-1/disp_param u:object_r:sysfs_displayfeatures:s0
