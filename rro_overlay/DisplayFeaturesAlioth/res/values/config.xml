@@ -15,7 +15,7 @@
 <resources>
 
     <!-- Path to DC Dimming sysfs node -->
-    <string name="config_DisplayFeaturesDcDimPath" translatable="false">/sys/class/drm/card0/card0-DSI-1/disp_param</string>
+    <string name="config_DisplayFeaturesDcDimPath" translatable="false">/sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure</string>
 
     <!-- Path to HBM sysfs node -->
     <string name="config_DisplayFeaturesHbmPath" translatable="false">/sys/class/drm/card0/card0-DSI-1/disp_param</string>

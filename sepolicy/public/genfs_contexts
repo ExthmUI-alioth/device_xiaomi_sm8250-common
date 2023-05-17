@@ -1,1 +1,2 @@
 genfscon sysfs /sys/class/drm/card0/card0-DSI-1/disp_param u:object_r:sysfs_displayfeatures:s0
+genfscon sysfs /sys/devices/platform/soc/soc:qcom,dsi-display-primary/dimlayer_exposure u:object_r:sysfs_displayfeatures:s0

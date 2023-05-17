@@ -124,7 +124,7 @@ on boot
     # Allow system to manipulate DC Dim and HBM nodes
     chown system system /sys/class/drm/card0/card0-DSI-1/disp_param
     chmod 0660 /sys/class/drm/card0/card0-DSI-1/disp_param
-
+    
     chown system system /sys/class/touch/touch_dev/palm_sensor
     write /dev/cpuset/audio-app/cpus 1-2
     # Add a cpuset for the camera daemon
